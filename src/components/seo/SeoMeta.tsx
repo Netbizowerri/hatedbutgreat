@@ -10,7 +10,7 @@ interface SeoMetaProps {
 
 const SITE_NAME = 'Hated But Great';
 const BASE_URL = 'https://www.hatedbutgreat.com';
-const DEFAULT_IMAGE = 'https://i.ibb.co/4ZDMQ0Z9/Hated-But-Great.png';
+const DEFAULT_IMAGE = 'https://i.ibb.co/hFKGTPpr/Whats-App-Image-2026-06-29-at-11-46-59-AM.jpg';
 
 export function SeoMeta({ title, description, image, url, type = 'website' }: SeoMetaProps) {
   const fullTitle = `${title} | ${SITE_NAME}`;
