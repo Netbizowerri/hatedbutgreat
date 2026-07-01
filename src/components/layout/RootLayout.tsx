@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import { ScrollToTop } from './ScrollToTop';
+import { WhatsAppFloat } from '../ui/WhatsAppFloat';
 import { Outlet } from 'react-router-dom';
 
 function LoadingFallback() {
@@ -26,6 +27,7 @@ export const RootLayout: React.FC = () => {
         </Suspense>
       </main>
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { ContactForm } from '../components/forms/ContactForm';
 import { PageTransition } from '../components/ui/LayoutDecorations';
 import { SeoMeta } from '../components/seo/SeoMeta';
 import { FAQPageSchema, HowToSchema } from '../components/seo/JsonLd';
-import { Mail, Globe, Shield } from 'lucide-react';
+import { Mail, Globe, Shield, Phone, MessageCircle } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
@@ -45,26 +45,41 @@ export const Contact: React.FC = () => {
 
             {/* Right Col: Purpose & Direct Info */}
             <div className="lg:col-span-4 space-y-6">
-              <div className="glass-card p-6 space-y-4 bg-zinc-900/50">
-                <h3 className="font-accent font-extrabold text-xs tracking-widest uppercase text-[#008751] flex items-center gap-2">
-                  <Mail className="w-4 h-4" />
-                  <span>DIRECT DISPATCH CHANNELS</span>
-                </h3>
-                <div className="space-y-3 text-sm font-mono text-zinc-300">
-                  <p className="border-b border-zinc-800 pb-2">
-                    <span className="text-zinc-500 block text-xs">Media & Press Inquiries</span>
-                    press@hatedbutgreat.com
-                  </p>
-                  <p className="border-b border-zinc-800 pb-2">
-                    <span className="text-zinc-500 block text-xs">Talk Show Production</span>
-                    show@hatedbutgreat.com
-                  </p>
-                  <p>
-                    <span className="text-zinc-500 block text-xs">General Partnerships</span>
-                    partners@hatedbutgreat.com
-                  </p>
+                <div className="glass-card p-6 space-y-4 bg-zinc-900/50">
+                  <h3 className="font-accent font-extrabold text-xs tracking-widest uppercase text-[#008751] flex items-center gap-2">
+                    <Mail className="w-4 h-4" />
+                    <span>DIRECT DISPATCH CHANNELS</span>
+                  </h3>
+                  <div className="space-y-3 text-sm font-mono text-zinc-300">
+                    <p className="border-b border-zinc-800 pb-2">
+                      <span className="text-zinc-500 block text-xs">Email (Primary)</span>
+                      hatedbutgreat@gmail.com
+                    </p>
+                    <p className="border-b border-zinc-800 pb-2">
+                      <span className="text-zinc-500 block text-xs">Email (Official)</span>
+                      info@hatedbutgreat.com
+                    </p>
+                    <p className="border-b border-zinc-800 pb-2">
+                      <span className="text-zinc-500 block text-xs">Phone</span>
+                      <span className="flex items-center gap-2">
+                        <Phone className="w-3.5 h-3.5 text-[#008751]" />
+                        +234 903 659 6930
+                      </span>
+                    </p>
+                    <p>
+                      <span className="text-zinc-500 block text-xs">WhatsApp</span>
+                      <a
+                        href="https://wa.me/2349036596930"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-[#008751] hover:text-emerald-300 transition-colors"
+                      >
+                        <MessageCircle className="w-3.5 h-3.5" />
+                        +234 903 659 6930
+                      </a>
+                    </p>
+                  </div>
                 </div>
-              </div>
 
               <div className="glass-card p-6 space-y-4 bg-zinc-900/50">
                 <h3 className="font-accent font-extrabold text-xs tracking-widest uppercase text-[#008751] flex items-center gap-2">
