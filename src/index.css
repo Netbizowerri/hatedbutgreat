@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --font-accent: "Poppins", sans-serif;
+
+  --color-brand-primary: #0A0A0A;
+  --color-brand-secondary: #1A1A2E;
+  --color-brand-accent: #008751;
+  --color-brand-accentAlt: #10B981;
+  --color-brand-surface: #F7F4EF;
+  --color-brand-glass: rgba(255, 255, 255, 0.08);
+  --color-brand-dark: #0D0D0D;
+
+  --color-text-base: #1A1A1A;
+  --color-text-soft: #9CA3AF;
+  --color-text-inverse: #FFFFFF;
+  --color-text-gold: #008751;
+}
+
+html {
+  font-size: 14.5px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 135, 81, 0.25);
+    border-radius: 16px;
+    box-shadow: 
+      0 8px 32px rgba(0, 0, 0, 0.35),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-card-light {
+    background: rgba(247, 244, 239, 0.88);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(0, 135, 81, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .glass-input {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    color: white;
+    transition: all 0.2s ease;
+  }
+  .glass-input:focus {
+    border-color: #008751;
+    outline: none;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0 2px rgba(0, 135, 81, 0.3);
+  }
+}
+
+@keyframes floatOrb {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.95); }
+}
+
+.animate-float-slow {
+  animation: floatOrb 18s ease-in-out infinite;
+}
+.animate-float-delayed {
+  animation: floatOrb 22s ease-in-out infinite reverse;
+}
+

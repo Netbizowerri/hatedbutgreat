@@ -1,0 +1,6 @@
+{
+  "name": "Hated But Great",
+  "description": "Global Nigerian Image Redemption Platform — restoring pride and celebrating Nigerian excellence in medicine, business, and entertainment worldwide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
