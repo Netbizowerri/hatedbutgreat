@@ -52,6 +52,22 @@ export const MobileMenuTray: React.FC<MobileMenuTrayProps> = ({ isOpen, onClose,
             exit="exit"
             className="relative w-full max-h-[88vh] bg-zinc-950 text-white rounded-t-[28px] border-t border-[#008751]/40 shadow-2xl flex flex-col overflow-hidden pb-[env(safe-area-inset-bottom)]"
           >
+            {/* Logo */}
+            <div className="flex items-center justify-center gap-3 pt-6 pb-3">
+              <img
+                src="https://i.ibb.co/V0DyFQ2L/Whats-App-Image-2026-06-29-at-11-46-59-AM.jpg"
+                alt="Nigerian Flag"
+                className="h-16 w-auto object-contain rounded-sm"
+                referrerPolicy="no-referrer"
+              />
+              <img
+                src="https://i.ibb.co/4ZDMQ0Z9/Hated-But-Great.png"
+                alt="Hated But Great"
+                className="h-12 sm:hidden w-auto object-contain"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+
             {/* Nigerian Flag Top Accent Strip */}
             <div className="w-full h-1.5 grid grid-cols-3">
               <div className="bg-[#008751]" />

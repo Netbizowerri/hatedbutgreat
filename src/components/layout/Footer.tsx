@@ -38,13 +38,13 @@ export const Footer: React.FC = () => {
               <img
                 src="https://i.ibb.co/V0DyFQ2L/Whats-App-Image-2026-06-29-at-11-46-59-AM.jpg"
                 alt="Nigerian Flag"
-                className="h-10 w-auto object-contain rounded-sm"
+                className="h-16 w-auto object-contain rounded-sm"
                 referrerPolicy="no-referrer"
               />
               <img 
                 src="https://i.ibb.co/4ZDMQ0Z9/Hated-But-Great.png" 
                 alt="Hated But Great" 
-                className="h-10 w-auto object-contain" 
+                className="h-12 sm:h-16 w-auto object-contain" 
                 referrerPolicy="no-referrer"
               />
             </div>
