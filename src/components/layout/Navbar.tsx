@@ -35,11 +35,12 @@ export const Navbar: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="flex gap-1">
-              <span className="w-2.5 h-6 bg-[#008751] rounded-sm transition-transform group-hover:scale-y-110" />
-              <span className="w-2.5 h-6 bg-white rounded-sm transition-transform group-hover:scale-y-125" />
-              <span className="w-2.5 h-6 bg-[#008751] rounded-sm transition-transform group-hover:scale-y-110" />
-            </div>
+            <img
+              src="https://i.ibb.co/V0DyFQ2L/Whats-App-Image-2026-06-29-at-11-46-59-AM.jpg"
+              alt="Nigerian Flag"
+              className="h-12 w-auto object-contain rounded-sm transition-transform group-hover:scale-110"
+              referrerPolicy="no-referrer"
+            />
             <img 
               src="https://i.ibb.co/4ZDMQ0Z9/Hated-But-Great.png" 
               alt="Hated But Great" 

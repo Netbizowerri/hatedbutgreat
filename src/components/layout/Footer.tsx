@@ -35,11 +35,12 @@ export const Footer: React.FC = () => {
           {/* Col 1: Brand & Mission */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="flex gap-1">
-                <span className="w-2 h-5 bg-[#008751] rounded-sm" />
-                <span className="w-2 h-5 bg-white rounded-sm" />
-                <span className="w-2 h-5 bg-[#008751] rounded-sm" />
-              </div>
+              <img
+                src="https://i.ibb.co/V0DyFQ2L/Whats-App-Image-2026-06-29-at-11-46-59-AM.jpg"
+                alt="Nigerian Flag"
+                className="h-10 w-auto object-contain rounded-sm"
+                referrerPolicy="no-referrer"
+              />
               <img 
                 src="https://i.ibb.co/4ZDMQ0Z9/Hated-But-Great.png" 
                 alt="Hated But Great" 
@@ -152,6 +153,14 @@ export const Footer: React.FC = () => {
               </form>
             )}
           </div>
+        </div>
+
+        {/* Heritage Attribution */}
+        <div className="py-10 text-center border-b border-zinc-800/50">
+          <p className="text-white font-accent font-extrabold text-lg sm:text-xl tracking-wide">
+            Hated But Great Project is an initiative of{' '}
+            <span className="text-[#008751]">HERITAGE PROMOTION</span>
+          </p>
         </div>
 
         {/* Bottom Credits Bar */}
