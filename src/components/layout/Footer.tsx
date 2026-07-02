@@ -166,11 +166,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Credits Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4 font-mono">
           <p>© 2026 Hated But Great. All Rights Reserved. A Global Nigerian Image Redemption Project.</p>
-          <div className="flex items-center gap-4">
-            <span className="uppercase tracking-widest text-[10px] text-[#008751]">HYPERSCALE_NARRATIVE_ENGAGED</span>
-            <span>•</span>
-            <span>v1.0_STABLE</span>
-          </div>
+
         </div>
       </div>
     </footer>

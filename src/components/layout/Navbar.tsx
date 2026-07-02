@@ -38,13 +38,13 @@ export const Navbar: React.FC = () => {
             <img
               src="https://i.ibb.co/V0DyFQ2L/Whats-App-Image-2026-06-29-at-11-46-59-AM.jpg"
               alt="Nigerian Flag"
-              className="h-16 w-auto object-contain rounded-sm transition-transform group-hover:scale-110"
+              className="h-14 w-auto object-contain rounded-sm transition-transform group-hover:scale-110"
               referrerPolicy="no-referrer"
             />
             <img 
               src="https://i.ibb.co/4ZDMQ0Z9/Hated-But-Great.png" 
               alt="Hated But Great" 
-              className="h-12 sm:h-16 w-auto object-contain brightness-100 transition-opacity duration-200 group-hover:opacity-90" 
+              className="h-11 sm:h-14 w-auto object-contain brightness-100 transition-opacity duration-200 group-hover:opacity-90" 
               referrerPolicy="no-referrer"
             />
           </Link>
